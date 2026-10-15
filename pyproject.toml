@@ -1,0 +1,9 @@
+[project]
+name = "tarifas-t2"
+version = "0.3.0"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# Los warnings se tratan como errores: el código no debe usar APIs deprecadas.
+filterwarnings = ["error"]

@@ -1,0 +1,30 @@
+[
+  {
+    "tarjeta": "T-004417",
+    "perfil": "general",
+    "validaciones": [
+      {"id": "a1f0", "estacion": "E01", "fecha_hora": "2025-03-10T06:52:10-05:00"},
+      {"id": "a1f1", "estacion": "E07", "fecha_hora": "2025-03-10T07:31:44-05:00"},
+      {"id": "a1f2", "estacion": "E09", "fecha_hora": "2025-03-10T17:48:03-05:00"},
+      {"id": "a1f3", "estacion": "E07", "fecha_hora": "2025-03-10T18:20:51-05:00"}
+    ]
+  },
+  {
+    "tarjeta": "T-118230",
+    "perfil": "estudiante",
+    "validaciones": [
+      {"id": "b7c2", "estacion": "E12", "fecha_hora": "2025-03-10T13:05:00-05:00"},
+      {"id": "b7c0", "estacion": "E03", "fecha_hora": "2025-03-10T11:58:27Z"},
+      {"id": "b7c1", "estacion": "E05", "fecha_hora": "2025-03-10T07:41:12-05:00"},
+      {"id": "b7c3", "estacion": "E12", "fecha_hora": "2025-03-10T18:30:40Z"}
+    ]
+  },
+  {
+    "tarjeta": "T-090311",
+    "perfil": "adulto_mayor",
+    "validaciones": [
+      {"id": "c3d0", "estacion": "E08", "fecha_hora": "2025-03-10T23:34:00-05:00"},
+      {"id": "c3d1", "estacion": "E13", "fecha_hora": "2025-03-11T00:21:15-05:00"}
+    ]
+  }
+]

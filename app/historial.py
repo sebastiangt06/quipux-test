@@ -7,10 +7,9 @@ from app.modelos import RespuestaTarifa
 
 
 class HistorialTarjeta:
-    calculos: list[RespuestaTarifa] = []
-
     def __init__(self, tarjeta: str):
         self.tarjeta = tarjeta
+        self.calculos: list[RespuestaTarifa] = []
 
     def registrar(self, respuesta: RespuestaTarifa) -> None:
         self.calculos.append(respuesta)
